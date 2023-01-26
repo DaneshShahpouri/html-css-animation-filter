@@ -293,7 +293,7 @@ filter: brightness(50%) sepia(1);
 
 @keyframes es13_bottom{
     0%{
-        right:10%;
+        right:20%;
         bottom: -10px;
     }
 
@@ -313,12 +313,12 @@ filter: brightness(50%) sepia(1);
     }
 
     90%{
-        right:-20%;
+        right:-10%;
        bottom: -10px;
     }
 
     100%{
-        right:10%;
+        right:20%;
         bottom: -10px;
     }
 }
@@ -332,10 +332,10 @@ filter: brightness(50%) sepia(1);
 } */
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: es13_bottom 2s 1 linear;
+    animation: es13_bottom 4s 1 linear;
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: es13_top 2s 1 linear;
+    animation: es13_top 4s 1 linear;
 }
 /* /SOLUZIONE TREDICI */

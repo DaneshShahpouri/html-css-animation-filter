@@ -240,21 +240,30 @@ filter: brightness(50%) sepia(1);
 
 }
 
-.ex-12-top-white{
-    animation: es12_top 2s infinite;
+.ex-12-button:hover .ex-12-top-white{
+    animation: es12_top 2s 1;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: es12_bottom 2s 1;
+}
+
+/* .ex-12-top-white{
+    animation: es12_top 2s 1;
 }
 
 .ex-12-bottom-white{
-    animation: es12_bottom 2s infinite;
-}
+    animation: es12_bottom 2s 1;
+} */
 /* /SOLUZIONE DODICI */
 
 /* SOLUZIONE TREDICI */
 @keyframes es13_top{
     0%{
-        left:-10%;
+        left:10%;
         top:-10px
     }
+
 
     25%{
         top:-10px;
@@ -271,15 +280,20 @@ filter: brightness(50%) sepia(1);
         left:-10%;
     }
 
-    100%{
+    90%{
+        top:-10px;
         left:-10%;
+    }
+
+    100%{
+        left:10%;
         top:-10px;
     }
 }
 
 @keyframes es13_bottom{
     0%{
-        right:-20%;
+        right:10%;
         bottom: -10px;
     }
 
@@ -298,17 +312,30 @@ filter: brightness(50%) sepia(1);
        bottom: 50px;
     }
 
-    100%{
+    90%{
         right:-20%;
+       bottom: -10px;
+    }
+
+    100%{
+        right:10%;
         bottom: -10px;
     }
 }
 
-.ex-13-top-white{
+/* .ex-13-top-white{
     animation: es13_top 2s infinite linear;
 }
 
 .ex-13-bottom-white{
     animation: es13_bottom 2s infinite linear;
+} */
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: es13_bottom 2s 1 linear;
+}
+
+.ex-13-button:hover .ex-13-top-white{
+    animation: es13_top 2s 1 linear;
 }
 /* /SOLUZIONE TREDICI */

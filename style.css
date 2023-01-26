@@ -179,7 +179,7 @@ filter: brightness(50%) sepia(1);
     }
 }
 
-.ex-11-icon{
+.ex-11-icon:hover{
     animation: ruota-11 2s infinite ;
 }
 /* /SOLUZIONE UNDICI */

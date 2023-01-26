@@ -20,36 +20,68 @@
     height: 100px;
     background: red;
 }
+
+/* SOLUZIONE DUE */
+.ex-2-square{
+    transition: width 1s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+/* /SOLUZIONE DUE */
+
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* SOLUZIONE TRE */
+/* /SOLUZIONE TRE */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* SOLUZIONE QUATTRO */
+/* /SOLUZIONE QUATTRO */
 .ex-5-square {
     margin: 20px;
     width: 60px;
     height: 60px;
     background: red;
 }
+
+/* SOLUZIONE CINQUESEI */
+/* /SOLUZIONE CINQUESEI */
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
 
+
+/* SOLUZIONE SEI*/
+/* /SOLUZIONE SEI */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
 }
+
+/* SOLUZIONE DUE */
+/* /SOLUZIONE DUE */
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* SOLUZIONE DUE */
+/* /SOLUZIONE DUE */
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* SOLUZIONE DUE */
+/* /SOLUZIONE DUE */
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -63,6 +95,9 @@
     text-align: center;
     text-decoration: none;
 }
+
+/* SOLUZIONE DUE */
+/* /SOLUZIONE DUE */
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
@@ -71,6 +106,9 @@
     width: 60px;
     height: 20px;
 }
+
+/* SOLUZIONE DUE */
+/* /SOLUZIONE DUE */
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -79,3 +117,6 @@
     width: 60px;
     height: 20px;
 }
+
+/* SOLUZIONE DUE */
+/* /SOLUZIONE DUE */
